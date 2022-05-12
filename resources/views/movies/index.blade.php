@@ -14,10 +14,10 @@
                             <h6 class="card-subtitle mb-2 text-muted">{{ $movie->original_title}}</h6>
                             <p class="card-text">Lingua originale: {{ $movie->nationality}}</p>
                             <span>
-                                Data uscita<a href="#" class="card-link">{{ $movie->date}}</a> - 
+                                Data uscita: {{ $movie->date}} - 
                             </span>
                             <span>
-                                Voto: <a href="#" class="card-link">{{ $movie->vote}}</a>
+                                Voto: {{ $movie->vote}}
                             </span>
                             
                         </div>
