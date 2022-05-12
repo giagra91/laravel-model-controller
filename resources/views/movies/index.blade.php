@@ -8,7 +8,7 @@
             <div class="row g-2">
             @foreach ($movies as $movie)
                 <div class="col-3">
-                    <div class="card bg-light text-center" style="width: 18rem;">
+                    <div class="card bg-light text-center rounded-3">
                         <div class="card-body">
                             <h5 class="card-title">{{ $movie->title}}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">{{ $movie->original_title}}</h6>
